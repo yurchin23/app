@@ -6,4 +6,5 @@ sudo apt-get update -y
 sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER
 sudo apt-get install python3-pip -y
-docker-compose -f /home/ubuntu/app/docker-compose.yml up -d
+#docker-compose -f /home/ubuntu/app/docker-compose.yml up -d
+docker-compose up -d
