@@ -1,4 +1,4 @@
-FROM yurchin23/imageapp_jenkins
+FROM node:12-alpine
 WORKDIR /app
 COPY package* yarn.lock ./
 COPY src ./src
