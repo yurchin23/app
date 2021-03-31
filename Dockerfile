@@ -1,4 +1,4 @@
-FROM bazhyk/todoappjenkins:latest
+FROM yurchin23/imageapp_jenkins
 WORKDIR /app
 COPY package* yarn.lock ./
 COPY src ./src
