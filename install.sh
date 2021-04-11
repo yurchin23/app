@@ -6,6 +6,3 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo usermod -aG docker $USER
 sudo service docker restart
-docker system prune -f --volumes
-docker pull yurchin23/imageapp_jenkins
-docker-compose -f /home/ubuntu/app/docker-compose.yml up -d
