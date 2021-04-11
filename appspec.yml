@@ -3,16 +3,3 @@ os: linux
 files:
   - source: .
     destination: /tmp/app
-hooks:
-  BeforeInstall:
-    - location: ./install.sh
-      timeout: 900
-  AfterInstall:
-    - location: 
-      timeout: 900
-  ApplicationStart:
-    - location: docker-compose up -d
-      timeout: 900
-  ValidateService:
-    - location: 
-      timeout: 900
