@@ -4,6 +4,9 @@ files:
   - source: .
     destination: /home/ubuntu/app/
 hooks:
+  BeforeInstall:
+  - location: ./install0.sh
+      timeout: 900
   ApplicationStart:
     - location: ./install.sh
       timeout: 900
