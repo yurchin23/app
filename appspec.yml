@@ -1,10 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ./docker-compose.yml
-    destination: /home/ubuntu/app
-files1:
-  - source: ./package.json
+  - source: ./docker-compose.yml *.lock *.json
     destination: /home/ubuntu/app
 hooks:
   ApplicationStart:
