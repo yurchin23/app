@@ -3,7 +3,7 @@ os: linux
 files:
   - source: ./docker-compose.yml
     destination: /home/ubuntu/app
-files:
+files1:
   - source: ./package.json
     destination: /home/ubuntu/app
 hooks:
