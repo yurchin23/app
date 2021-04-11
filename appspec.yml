@@ -3,6 +3,12 @@ os: linux
 files:
   - source: docker-compose.yml
     destination: /home/ubuntu/app
+files:
+  - source: package.json
+    destination: /home/ubuntu/app
+files:
+  - source: yarn.lock
+    destination: /home/ubuntu/app
 hooks:
   ApplicationStart:
     - location: ./install.sh
