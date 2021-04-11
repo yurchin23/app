@@ -5,6 +5,6 @@ files:
     destination: /home/ubuntu/app
 hooks:
   ApplicationStart:
-    - location: ./app/install.sh
+    - location: ./install.sh
       timeout: 900
 
