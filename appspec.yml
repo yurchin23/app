@@ -3,7 +3,6 @@ os: linux
 files:
   - source: .
     destination: /home/ubuntu/app/
-  - source: package.json
 hooks:
   ApplicationStart:
     - location: ./install.sh
