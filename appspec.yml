@@ -5,7 +5,7 @@ files:
     destination: /tmp/app
 hooks:
   BeforeInstall:
-    - location: 
+    - location: install.sh
       timeout: 900
   AfterInstall:
     - location: 
