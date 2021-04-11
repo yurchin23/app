@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 files:
   - source: .
-    destination: /app
+    destination: /home/ubuntu/app
 ApplicationStart: docker-compose -f /home/ubuntu/app/docker-compose.yml up -d
