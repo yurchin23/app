@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app:
     image: bazhyk/todoappjenkins:latest
-    build: .
+    command: sh -c "yarn install && yarn run dev"
     ports:
       - 3000:3000
     working_dir: /app
